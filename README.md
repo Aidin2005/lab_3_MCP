@@ -28,8 +28,8 @@ ollama run qwen3.5:4b --verbose "Что такое ИИ-агент? Ответь
 - **Потребление оперативной памяти (`ollama ps`):** `2.4 GB` (100% GPU)
 
 #### Скриншот вывода `ollama ps`:
-![Скриншот ollama ps](<img width="1024" height="112" alt="step1_ollama_ps" src="https://github.com/user-attachments/assets/8c1e1f4d-bfff-485e-a924-8f1c0bded51d" />
-)
+<img width="1024" height="112" alt="step1_ollama_ps" src="https://github.com/user-attachments/assets/8c1e1f4d-bfff-485e-a924-8f1c0bded51d" />
+
 
 ---
 
@@ -41,8 +41,8 @@ ollama run qwen3.5:4b --verbose "Что такое ИИ-агент? Ответь
 Реализован инструмент `read_document(name: str)` для чтения документа целиком с **защитой от Path Traversal** (`file_path.is_relative_to(docs_dir)`). При попытке запросить `../server.py` возвращается ошибка доступа.
 
 #### Скриншот вывода скрипта проверки `check.py`:
-![Скриншот вывода check.py](<img width="970" height="1024" alt="step2_check_py" src="https://github.com/user-attachments/assets/e8c15143-ccdc-4591-892a-d2f2afa64863" />
-)
+<img width="970" height="1024" alt="step2_check_py" src="https://github.com/user-attachments/assets/e8c15143-ccdc-4591-892a-d2f2afa64863" />
+
 
 #### Текстовый вывод скрипта проверки `check.py`:
 ```text
@@ -93,8 +93,8 @@ result = await client.call_tool(call.function.name, call.function.arguments)
 ```
 
 #### Скриншот работы агента:
-![Скриншот работы агента agent.py](<img width="1024" height="135" alt="step3_agent_py" src="https://github.com/user-attachments/assets/df765fda-dec9-4035-a2fe-08adfe252a69" />
-)
+<img width="1024" height="135" alt="step3_agent_py" src="https://github.com/user-attachments/assets/df765fda-dec9-4035-a2fe-08adfe252a69" />
+
 
 #### Лог работы агента на контрольном вопросе:
 **Вопрос:** *«Сколько дней отпуска положено сотруднику?»*  
