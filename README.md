@@ -1,4 +1,4 @@
-<img width="1024" height="112" alt="step1_ollama_ps" src="https://github.com/user-attachments/assets/682bd025-c5b8-44fb-9d56-8444a203edec" />
+
 # Отчёт по лабораторной работе №3
 ## Тема: Локальный запуск открытых моделей и MCP (Model Context Protocol)
 
